@@ -2,6 +2,9 @@
 
 *(For the full, detailed tutorial and troubleshooting log, see `iphone-usb-arch-guide.md` in this folder).*
 
+### 📥 Downloading Apps and Scripts
+You can find the latest `.ipa` files and their installation scripts (`.sh`) in the [GitHub Releases](../../releases) section of this repository. Download them and place them in this folder.
+
 ### 🔄 How to Refresh Apps (Do this every 7 days)
 Plug in your iPhone via USB, open a terminal in this folder, and run:
 
@@ -9,8 +12,8 @@ Plug in your iPhone via USB, open a terminal in this folder, and run:
 # Refresh AltStore
 ./install.sh "YOUR_APPLE_ID_PASSWORD"
 
-# Refresh Delta
-./install_delta.sh "YOUR_APPLE_ID_PASSWORD"
+# Refresh FastShare
+./install_fastshare.sh "YOUR_APPLE_ID_PASSWORD"
 
 # Refresh YouTube
 ./install_youtube.sh "YOUR_APPLE_ID_PASSWORD"

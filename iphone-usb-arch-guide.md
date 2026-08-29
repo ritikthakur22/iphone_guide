@@ -148,3 +148,14 @@ Open your file manager, go to your Home directory, and open `iphone_photos`. You
 fusermount -u ~/iphone_photos
 ```
 *(Troubleshooting: If you get a "Device or resource busy" error, it means a window or terminal is still open inside the folder. Close your file manager, type `cd ~` in your terminal, and try again. Alternatively, you can just physically unplug the USB cable and Linux will safely kill the mount automatically.)*
+
+
+
+
+
+
+
+
+
+agy --conversation=85cb3152-d4de-499f-a291-ba898f0ec287
+gemini memory
