@@ -1,5 +1,9 @@
 # iPhone Sideloading Quick Commands
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Platform: Arch Linux / iOS](https://img.shields.io/badge/Platform-Arch%20Linux%20%7C%20iOS-blue.svg)](#)
+[![Maintained by](https://img.shields.io/badge/Maintained%20by-Ritik%20Thakur-purple.svg)](https://github.com/ritikthakur22)
+
 *(For the full, detailed tutorial and troubleshooting log, see `iphone-usb-arch-guide.md` in this folder).*
 
 ### 📥 Downloading Apps and Scripts
@@ -51,3 +55,10 @@ systemctl --user status netmuxd.service altserver.service
 # Restart services
 systemctl --user restart netmuxd.service altserver.service
 ```
+
+---
+
+## 📄 License
+
+This repository and its automation scripts are released under the [MIT License](LICENSE).  
+Copyright © 2026 Ritik Thakur.
